@@ -1,0 +1,95 @@
+# ============================================================
+# YOUR PROFILE — the single source of truth for who you are.
+# The agent NEVER invents facts beyond what is written here.
+# ============================================================
+
+personal:
+  full_name: "Ketan Anand Malusare"
+  email: "ketanmalusare222@gmail.com"
+  phone: "+91-8433640868"
+  city: "Thane"
+  linkedin_url: "https://linkedin.com/in/ketan-malusare-b79b9b369"
+  github_url: "https://github.com/Jontyyyyy"
+  portfolio_url: "https://ketan-portfolio-orpin.vercel.app"
+
+location:
+  preferred_locations: ["Mumbai", "Pune", "Thane", "Navi Mumbai", "Remote"]
+  remote_preference: "hybrid"   # remote | hybrid | onsite | any
+  willing_to_relocate: false
+
+role:
+  target_roles: ["Software Engineer", "Backend Developer", "Data Analyst"]
+  alternate_roles: ["Python Developer", "Full Stack Developer"]
+  experience_level: "entry"     # entry | mid | senior
+  years_experience: 0
+
+education:
+  - degree: "Master of Computer Applications (MCA)"
+    institution: "NCRD Sterling College, Mumbai University"
+    year: null   # currently pursuing, started 2026 — fill in expected graduation year
+    grade: "Currently pursuing"
+  - degree: "Bachelor of Computer Applications (BCA)"
+    institution: "Tilak Maharashtra Vidyapeeth, Pune"
+    year: 2025
+    grade: "65.67%"
+  - degree: "HSC"
+    institution: "Maharashtra Board"
+    year: null
+    grade: "79.60%"
+  - degree: "SSC"
+    institution: "Maharashtra Board"
+    year: null
+    grade: "na"
+
+skills:
+  programming_languages: ["JavaScript", "Python", "PHP", "SQL", "HTML", "CSS", "Java"]
+  frameworks: ["React", "Tailwind CSS", "Vite", "GSAP", "Framer Motion", "Django", "Express.js"]
+  databases: ["MongoDB", "MySQL", "PostgreSQL", "SQLite", "TiDB"]
+  tools: ["Git", "GitHub", "VS Code", "Docker", "Linux", "Cloudinary", "MongoDB Atlas", "Render", "Vercel"]
+  other: ["Socket.IO", "JWT Authentication", "REST APIs"]
+
+projects:
+  - name: "Real-Time Group Chat Application"
+    description: "Full-stack real-time messaging app with authentication, media sharing and cloud storage. Features group chat, typing indicators, read receipts, infinite-scroll message history, image/file sharing via Cloudinary, online/offline presence, and JWT authentication. Deployed on Vercel (frontend) and Render (backend)."
+    tech_stack: ["React", "Vite", "Node.js", "Express.js", "Socket.IO", "MongoDB Atlas", "Cloudinary", "JWT", "Tailwind CSS"]
+    url: "https://chat-app-ketanmalusare440-6737s-projects.vercel.app/"
+  - name: "3D Portfolio Website"
+    description: "Cinematic personal portfolio with scroll-driven storytelling, a 3D animated avatar, and scroll-triggered animations. Fully responsive."
+    tech_stack: ["React", "Vite", "Tailwind CSS", "GSAP ScrollTrigger", "Lenis", "Framer Motion"]
+    url: "https://ketan-portfolio-orpin.vercel.app"
+  - name: "Library Management System"
+    description: "Database-driven library application with authentication, book issue/return workflows, and inventory management, deployed with a distributed SQL backend."
+    tech_stack: ["Python", "HTML5", "CSS3", "JavaScript", "SQL", "TiDB"]
+    url: ""
+  - name: "College Management System"
+    description: "CRUD-based system for managing students, faculty, and courses, including attendance tracking and academic records."
+    tech_stack: ["Python", "MySQL"]
+    url: ""
+
+certifications: []
+languages_spoken: ["English", "Hindi", "Marathi"]
+
+compensation:
+  expected_salary: 360000   # ~30,000/month
+  minimum_salary: 0         # open to any offer
+  currency: "INR"
+
+work:
+  notice_period_days: 0
+  work_authorization: "Indian citizen"
+
+preferences:
+  preferred_industries: ["Information Technology"]
+  excluded_industries: []
+  preferred_company_sizes: ["startup", "mid-size", "enterprise"]
+  employment_types: ["full-time"]
+
+thresholds:
+  job_match_threshold: 60
+  auto_application_threshold: 85
+  daily_application_limit: 15
+
+notifications:
+  telegram_enabled: true
+  email_report_enabled: false
+  daily_report_time: "21:00"

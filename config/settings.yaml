@@ -1,0 +1,28 @@
+schedule:
+  job_discovery_interval_hours: 3
+  email_tracking_interval_minutes: 30
+  health_check_interval_minutes: 15
+  daily_report_time: "21:00"
+  weekly_insight_day: "sunday"
+
+ai:
+  provider_order: ["ollama", "gemini", "groq", "openrouter"]
+  ollama_model: "llama3.1:8b"
+  gemini_model: "gemini-1.5-flash"
+  groq_model: "llama-3.1-8b-instant"
+  openrouter_model: "meta-llama/llama-3.1-8b-instruct:free"
+  max_retries: 3
+  backoff_seconds: 5
+
+automation:
+  dry_run_default: true
+  polite_delay_seconds_min: 3
+  polite_delay_seconds_max: 8
+  max_requests_per_minute_per_site: 6
+
+database:
+  path: "data/job_autopilot.db"
+
+logging:
+  level: "INFO"
+  path: "logs/agent.log"

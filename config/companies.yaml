@@ -1,0 +1,7 @@
+companies:
+  - name: "Stripe"
+    ats_type: "greenhouse"
+    board_token: "stripe"
+  - name: "Razorpay"
+    ats_type: "greenhouse"
+    board_token: "razorpaysoftwareprivatelimited"
